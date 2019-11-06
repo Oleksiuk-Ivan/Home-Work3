@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #2c2c2c;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    margin-left: 150px;
+    font-weight: 000;
+    color: aqua;
+}
+   table tr td, table tr th {
+    padding-left: 40px;
+    position: relative;
+}
+
+table{   
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 2px #AFAFAF;
+    width: 50%;
+    text-align: left;
+    background-color:#333;
+    margin: 50px;
+
+   TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 5px solid maroon; /* Параметры рамки */
+    text-align: left; /* Выравнивание по левому краю */
+   }
