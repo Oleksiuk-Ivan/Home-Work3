@@ -14,7 +14,7 @@ h1{
     color: aqua;
 }
    table tr td, table tr th {
-    padding-left: 40px;
+    padding-left: 10px;
     position: relative;
 }
 
@@ -27,10 +27,48 @@ table{
     width: 50%;
     text-align: left;
     background-color:#333;
-    margin: 50px;
+    margin: 40px;
+     }
+   
+    .search-input{    
+    width: 80%;
+	position: relative;
+}
 
-   TD, TH {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 5px solid maroon; /* Параметры рамки */
-    text-align: left; /* Выравнивание по левому краю */
-   }
+    .search input {
+	border: none;
+}
+
+    .search .input {
+	width: 50%;
+	padding: 8px 1px 9px 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: #EEE;
+	font: 13px Tahoma, Arial, sans-serif;
+	color: #555;
+	outline: none;
+}
+    .triangle{
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: relative;
+    top: 85px;
+    left:140px;
+}
+    .triangle2{
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position: relative;
+    top: 92px;
+    left:140px;
+}
+    .inbox::before{
+    background-image: url('img/inbox.svg');
+    background-size: 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+    content:"";
+}
