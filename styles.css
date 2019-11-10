@@ -13,23 +13,21 @@ h1{
     font-weight: 000;
     color: aqua;
 }
-   table tr td, table tr th {
-    padding-left: 10px;
-    position: relative;
-}
 
 table{   
     width: 150px;
     height: 150px;
-    border-radius: 5px;
+    border-radius: 7px;
     border-collapse: collapse;
-    box-shadow: 0 0 0 2px #AFAFAF;
+    box-shadow: 0 0 0 2px #A3A3A3;
     width: 50%;
     text-align: left;
     background-color:#333;
     margin: 40px;
      }
-   
+td {
+border-top: 1px solid #A3A3A3;
+padding: 8px;
 
 .search-input{    
     width: 80%;
@@ -54,15 +52,15 @@ table{
     border: 5px solid transparent;
     border-top: 5px solid #fff;
     position: relative;
-    top: 85px;
-    left:140px;
+    top: 75px;
+    left:100px;
 }
     .triangle2{
     border: 5px solid transparent;
     border-top: 5px solid #fff;
     position: relative;
-    top: 92px;
-    left:140px;
+    top: 81px;
+    left: 99px;
 }
  .check::before{
     background-image: url('img/check.svg');
