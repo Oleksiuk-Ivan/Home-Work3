@@ -30,7 +30,18 @@ table{
     margin: 40px;
      }
    
-    .search-input{    
+th.wide_column{
+    width: 50%;
+}
+
+th{
+    font-weight: 500;    
+    height: 40px;      
+    padding: 0 15px;
+    width: 25%;
+}    
+
+.search-input{    
     width: 80%;
 	position: relative;
 }
@@ -63,7 +74,17 @@ table{
     top: 92px;
     left:140px;
 }
-    .inbox::before{
+ .check::before{
+    background-image: url('img/check.svg');
+    background-size: 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+    content:"";
+}   
+
+.inbox::before{
     background-image: url('img/inbox.svg');
     background-size: 20px;
     display: inline-block;
